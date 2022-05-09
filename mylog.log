@@ -1,0 +1,4 @@
+2022-05-09 00:37:25.094  INFO 8796 --- [RMI TCP Connection(888)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-05-09 00:37:25.665  INFO 8796 --- [RMI TCP Connection(888)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-09 00:37:25.722  INFO 8796 --- [RMI TCP Connection(888)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-09 00:37:25.744  INFO 8796 --- [RMI TCP Connection(888)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
