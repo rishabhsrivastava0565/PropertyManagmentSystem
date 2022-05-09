@@ -1,115 +1,31 @@
-2022-05-09 00:36:56.710  INFO 6080 --- [main] c.cg.ProjectManagmentSystemApplication   : Starting ProjectManagmentSystemApplication using Java 18 on Rishabh with PID 6080 (C:\Users\risha\Documents\pp\ProjectManagmentSystem\build\libs\ProjectManagmentSystem-0.0.1-SNAPSHOT.jar started by risha in C:\Users\risha\Documents\pp\ProjectManagmentSystem\build\libs)
-2022-05-09 00:36:56.717  INFO 6080 --- [main] c.cg.ProjectManagmentSystemApplication   : No active profile set, falling back to 1 default profile: "default"
-2022-05-09 00:36:58.711  INFO 6080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-05-09 00:36:58.962  INFO 6080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 217 ms. Found 10 JPA repository interfaces.
-2022-05-09 00:37:00.638  INFO 6080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-05-09 00:37:00.662  INFO 6080 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-05-09 00:37:00.663  INFO 6080 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
-2022-05-09 00:37:00.829  INFO 6080 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-05-09 00:37:00.831  INFO 6080 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3968 ms
-2022-05-09 00:37:01.327  INFO 6080 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-05-09 00:37:01.489  INFO 6080 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
-2022-05-09 00:37:02.196  INFO 6080 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-05-09 00:37:02.651  INFO 6080 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-05-09 00:37:03.143  INFO 6080 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-05-09 00:37:03.181  INFO 6080 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
-2022-05-09 00:37:03.513  WARN 6080 --- [main] org.hibernate.cfg.AnnotationBinder       : HHH000457: Joined inheritance hierarchy [com.cg.entities.Person] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
-2022-05-09 00:37:06.431  INFO 6080 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-05-09 00:37:06.452  INFO 6080 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-05-09 00:37:08.196  WARN 6080 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-05-09 00:37:11.392  INFO 6080 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
-2022-05-09 00:37:11.498  WARN 6080 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
-2022-05-09 00:37:11.516  INFO 6080 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-05-09 00:37:11.522  INFO 6080 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-05-09 00:37:11.537  INFO 6080 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-05-09 00:37:11.543  INFO 6080 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2022-05-09 00:37:11.589  INFO 6080 --- [main] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-05-09 00:37:11.624 ERROR 6080 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8080 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
-
-2022-05-09 00:38:43.194  INFO 7876 --- [main] c.cg.ProjectManagmentSystemApplication   : Starting ProjectManagmentSystemApplication using Java 18 on Rishabh with PID 7876 (C:\Users\risha\Documents\pp\ProjectManagmentSystem\build\libs\ProjectManagmentSystem-0.0.1-SNAPSHOT.jar started by risha in C:\Users\risha\Documents\pp\ProjectManagmentSystem\build\libs)
-2022-05-09 00:38:43.202  INFO 7876 --- [main] c.cg.ProjectManagmentSystemApplication   : No active profile set, falling back to 1 default profile: "default"
-2022-05-09 00:38:45.194  INFO 7876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-05-09 00:38:45.396  INFO 7876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 176 ms. Found 10 JPA repository interfaces.
-2022-05-09 00:38:46.931  INFO 7876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-05-09 00:38:46.958  INFO 7876 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-05-09 00:38:46.960  INFO 7876 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
-2022-05-09 00:38:47.127  INFO 7876 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-05-09 00:38:47.129  INFO 7876 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3729 ms
-2022-05-09 00:38:47.527  INFO 7876 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-05-09 00:38:47.654  INFO 7876 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
-2022-05-09 00:38:48.118  INFO 7876 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-05-09 00:38:48.435  INFO 7876 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-05-09 00:38:48.918  INFO 7876 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-05-09 00:38:48.966  INFO 7876 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
-2022-05-09 00:38:49.399  WARN 7876 --- [main] org.hibernate.cfg.AnnotationBinder       : HHH000457: Joined inheritance hierarchy [com.cg.entities.Person] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
-2022-05-09 00:38:51.538  INFO 7876 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-05-09 00:38:51.569  INFO 7876 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-05-09 00:38:54.055  WARN 7876 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-05-09 00:38:56.636  INFO 7876 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
-2022-05-09 00:38:56.755  INFO 7876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-05-09 00:38:56.785  INFO 7876 --- [main] c.cg.ProjectManagmentSystemApplication   : Started ProjectManagmentSystemApplication in 14.868 seconds (JVM running for 16.08)
-2022-05-09 00:38:56.922  INFO 7876 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-05-09 00:38:56.924  INFO 7876 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-05-09 00:38:56.931  INFO 7876 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
-2022-05-09 00:38:57.419  INFO 7876 --- [http-nio-8080-exec-1] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /getAllManager; Response Code = 200 ;Time Taken= 418
-2022-05-09 00:38:57.967  INFO 7876 --- [http-nio-8080-exec-3] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /favicon.ico; Response Code = 404 ;Time Taken= 367
-2022-05-09 00:39:17.108  INFO 7876 --- [http-nio-8080-exec-7] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /getMaintenance; Response Code = 404 ;Time Taken= 240
-2022-05-09 00:39:42.137  INFO 7876 --- [http-nio-8080-exec-5] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /allMaintenance; Response Code = 200 ;Time Taken= 44
-2022-05-09 01:02:19.746  INFO 7876 --- [http-nio-8080-exec-3] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /allMaintenance; Response Code = 200 ;Time Taken= 0
-2022-05-09 01:02:22.407  INFO 7876 --- [http-nio-8080-exec-2] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /allMaintenance; Response Code = 200 ;Time Taken= 7
-2022-05-09 01:02:28.552  INFO 7876 --- [http-nio-8080-exec-7] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /allProperties; Response Code = 200 ;Time Taken= 52
-2022-05-09 01:03:02.011  INFO 7876 --- [http-nio-8080-exec-5] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /allMaintenance; Response Code = 200 ;Time Taken= 5
-2022-05-09 01:03:20.543  INFO 7876 --- [http-nio-8080-exec-9] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /getMaintenance/65; Response Code = 404 ;Time Taken= 138
-2022-05-09 01:03:29.792  INFO 7876 --- [http-nio-8080-exec-1] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /findMaintenance/65; Response Code = 404 ;Time Taken= 30
-2022-05-09 01:03:34.905  INFO 7876 --- [http-nio-8080-exec-3] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /findMaintenance/21; Response Code = 404 ;Time Taken= 6
-2022-05-09 01:03:39.487  INFO 7876 --- [http-nio-8080-exec-2] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /findMaintenance/27; Response Code = 200 ;Time Taken= 21
-2022-05-09 01:03:44.550  INFO 7876 --- [http-nio-8080-exec-4] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /findMaintenance/89; Response Code = 404 ;Time Taken= 6
-2022-05-09 01:03:49.833  INFO 7876 --- [http-nio-8080-exec-6] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /findMaintenance/90; Response Code = 404 ;Time Taken= 6
-2022-05-09 01:03:54.279  INFO 7876 --- [http-nio-8080-exec-7] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /findMaintenance/27; Response Code = 200 ;Time Taken= 11
-2022-05-09 01:04:07.681  INFO 7876 --- [http-nio-8080-exec-8] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /allProperties; Response Code = 200 ;Time Taken= 22
-2022-05-09 01:04:27.245  INFO 7876 --- [http-nio-8080-exec-5] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /findProperty/30; Response Code = 200 ;Time Taken= 15
-2022-05-09 01:04:41.849  INFO 7876 --- [http-nio-8080-exec-9] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /findProperty/PLOT/PG; Response Code = 404 ;Time Taken= 134
-2022-05-09 01:04:47.740  INFO 7876 --- [http-nio-8080-exec-1] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /findPropert; Response Code = 404 ;Time Taken= 3
-2022-05-09 01:04:57.927  INFO 7876 --- [http-nio-8080-exec-3] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /UI; Response Code = 302 ;Time Taken= 18
-2022-05-09 01:04:57.935  INFO 7876 --- [http-nio-8080-exec-2] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /swagger-ui/index.html; Response Code = 200 ;Time Taken= 4
-2022-05-09 01:04:57.954  INFO 7876 --- [http-nio-8080-exec-4] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /swagger-ui/swagger-ui.css; Response Code = 200 ;Time Taken= 5
-2022-05-09 01:04:57.963  INFO 7876 --- [http-nio-8080-exec-7] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /swagger-ui/swagger-ui-standalone-preset.js; Response Code = 200 ;Time Taken= 12
-2022-05-09 01:04:57.969  INFO 7876 --- [http-nio-8080-exec-6] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /swagger-ui/swagger-ui-bundle.js; Response Code = 200 ;Time Taken= 19
-2022-05-09 01:04:58.122  INFO 7876 --- [http-nio-8080-exec-10] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /v3/api-docs/swagger-config; Response Code = 200 ;Time Taken= 4
-2022-05-09 01:04:59.166  INFO 7876 --- [http-nio-8080-exec-8] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 1009 ms
-2022-05-09 01:04:59.195  INFO 7876 --- [http-nio-8080-exec-8] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /v3/api-docs; Response Code = 200 ;Time Taken= 1055
-2022-05-09 01:05:10.321  INFO 7876 --- [http-nio-8080-exec-5] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /getAllManager; Response Code = 200 ;Time Taken= 6
-2022-05-09 01:05:25.272  INFO 7876 --- [http-nio-8080-exec-9] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /getManager/26; Response Code = 200 ;Time Taken= 41
-2022-05-09 01:06:00.522  INFO 7876 --- [http-nio-8080-exec-2] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /getManagerByQualification/btech; Response Code = 200 ;Time Taken= 21
-2022-05-09 01:06:14.227  INFO 7876 --- [http-nio-8080-exec-4] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /getManagerByQualification/Btech; Response Code = 200 ;Time Taken= 4
-2022-05-09 01:47:56.145  INFO 7876 --- [http-nio-8080-exec-6] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /getManager; Response Code = 404 ;Time Taken= 135
-2022-05-09 01:48:02.732  INFO 7876 --- [http-nio-8080-exec-10] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /allManager; Response Code = 404 ;Time Taken= 130
-2022-05-09 01:48:08.795  INFO 7876 --- [http-nio-8080-exec-8] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /allMaintenance; Response Code = 200 ;Time Taken= 10
-2022-05-09 01:49:23.940  INFO 7876 --- [http-nio-8080-exec-1] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /allTransaction; Response Code = 404 ;Time Taken= 132
-2022-05-09 01:49:33.715  INFO 7876 --- [http-nio-8080-exec-3] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /allMaintenance; Response Code = 200 ;Time Taken= 6
-2022-05-09 01:49:49.114  INFO 7876 --- [http-nio-8080-exec-2] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /getMaintenance/27; Response Code = 404 ;Time Taken= 128
-2022-05-09 01:49:55.906  INFO 7876 --- [http-nio-8080-exec-4] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /findMaintenance/27; Response Code = 200 ;Time Taken= 11
-2022-05-09 01:50:03.069  INFO 7876 --- [http-nio-8080-exec-7] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /findMaintenance/54; Response Code = 404 ;Time Taken= 6
-2022-05-09 01:50:09.801  INFO 7876 --- [http-nio-8080-exec-6] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /findMaintenance/30; Response Code = 404 ;Time Taken= 8
-2022-05-09 01:50:47.414  INFO 7876 --- [http-nio-8080-exec-8] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /getManager/26; Response Code = 200 ;Time Taken= 23
-2022-05-09 01:51:01.137  INFO 7876 --- [http-nio-8080-exec-5] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /allMaintenance; Response Code = 200 ;Time Taken= 1
-2022-05-09 01:51:31.632  INFO 7876 --- [http-nio-8080-exec-1] com.cg.logging.LoggingFilter             : Filter logs : Method =POST ; RequestURL = /addMaintenance; Response Code = 404 ;Time Taken= 66
-2022-05-09 01:51:40.596  INFO 7876 --- [http-nio-8080-exec-3] com.cg.logging.LoggingFilter             : Filter logs : Method =POST ; RequestURL = /addMaintenance; Response Code = 404 ;Time Taken= 5
-2022-05-09 01:51:46.775  INFO 7876 --- [http-nio-8080-exec-2] com.cg.logging.LoggingFilter             : Filter logs : Method =POST ; RequestURL = /addMaintenance; Response Code = 201 ;Time Taken= 89
-2022-05-09 01:51:55.622  INFO 7876 --- [http-nio-8080-exec-4] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /findMaintenance/30; Response Code = 200 ;Time Taken= 8
-2022-05-09 01:52:01.809  INFO 7876 --- [http-nio-8080-exec-7] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /allMaintenance; Response Code = 200 ;Time Taken= 5
-2022-05-09 01:58:53.728  INFO 7876 --- [http-nio-8080-exec-5] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /allMaintenance; Response Code = 200 ;Time Taken= 6
+2022-05-09 16:04:17.199  INFO 7620 --- [main] c.cg.ProjectManagmentSystemApplication   : Starting ProjectManagmentSystemApplication using Java 18 on Rishabh with PID 7620 (C:\Users\risha\Documents\pp\ProjectManagmentSystem\build\libs\ProjectManagmentSystem-0.0.1-SNAPSHOT.jar started by risha in C:\Users\risha\Documents\pp\ProjectManagmentSystem\build\libs)
+2022-05-09 16:04:17.207  INFO 7620 --- [main] c.cg.ProjectManagmentSystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-05-09 16:04:18.491  INFO 7620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-09 16:04:18.609  INFO 7620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107 ms. Found 10 JPA repository interfaces.
+2022-05-09 16:04:19.538  INFO 7620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2022-05-09 16:04:19.559  INFO 7620 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-09 16:04:19.561  INFO 7620 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-09 16:04:19.669  INFO 7620 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-09 16:04:19.670  INFO 7620 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2344 ms
+2022-05-09 16:04:19.945  INFO 7620 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-09 16:04:20.028  INFO 7620 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-05-09 16:04:20.262  INFO 7620 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-09 16:04:20.525  INFO 7620 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-09 16:04:20.952  INFO 7620 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-09 16:04:21.006  INFO 7620 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-05-09 16:04:21.268  WARN 7620 --- [main] org.hibernate.cfg.AnnotationBinder       : HHH000457: Joined inheritance hierarchy [com.cg.entities.Person] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+2022-05-09 16:04:23.072  INFO 7620 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-09 16:04:23.084  INFO 7620 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-09 16:04:24.384  WARN 7620 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-09 16:04:25.909  INFO 7620 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-05-09 16:04:25.996  INFO 7620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2022-05-09 16:04:26.010  INFO 7620 --- [main] c.cg.ProjectManagmentSystemApplication   : Started ProjectManagmentSystemApplication in 9.599 seconds (JVM running for 10.263)
+2022-05-09 16:04:37.822  INFO 7620 --- [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-09 16:04:37.823  INFO 7620 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-09 16:04:37.825  INFO 7620 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-09 16:04:37.947  INFO 7620 --- [http-nio-8086-exec-1] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /UI; Response Code = 302 ;Time Taken= 91
+2022-05-09 16:04:37.966  INFO 7620 --- [http-nio-8086-exec-3] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /swagger-ui/index.html; Response Code = 200 ;Time Taken= 12
+2022-05-09 16:04:38.001  INFO 7620 --- [http-nio-8086-exec-2] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /swagger-ui/swagger-ui.css; Response Code = 200 ;Time Taken= 10
+2022-05-09 16:04:38.021  INFO 7620 --- [http-nio-8086-exec-5] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /swagger-ui/swagger-ui-standalone-preset.js; Response Code = 200 ;Time Taken= 16
+2022-05-09 16:04:38.025  INFO 7620 --- [http-nio-8086-exec-4] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /swagger-ui/swagger-ui-bundle.js; Response Code = 200 ;Time Taken= 21
+2022-05-09 16:04:38.228  INFO 7620 --- [http-nio-8086-exec-6] com.cg.logging.LoggingFilter             : Filter logs : Method =GET ; RequestURL = /v3/api-docs/swagger-config; Response Code = 200 ;Time Taken= 27
