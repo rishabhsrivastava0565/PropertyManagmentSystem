@@ -11,7 +11,16 @@ sourceCompatibility = '11'
 repositories {
 	mavenCentral()
 }
-
+task fatJar(type: Jar){
+   manifest {
+      attributes 'Implementation-Title': 'Gradle Jar File Example',
+      'Implementation-Version': version,
+      'Main-Class': 'com.cg.ProjectManagmentSystemApplication'
+   }
+   baseName = project.name +'-all'
+   from { configuration.compile.collect { it.isDirectory() ? it : zipTree(it) } } 
+   with jar 
+  }
 dependencies {
 	
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
@@ -26,7 +35,9 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
     implementation 'org.springframework.boot:spring-boot-starter-security'
 }
-
+tasks.named('bootJar'){
+   launchScript()
+ }
 
 tasks.named('test') {
 	useJUnitPlatform()
