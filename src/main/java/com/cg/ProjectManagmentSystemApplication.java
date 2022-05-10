@@ -13,6 +13,7 @@ public class ProjectManagmentSystemApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProjectManagmentSystemApplication.class, args);
+		System.out.println("Connected to Server");
 	}
 
 }
